@@ -118,7 +118,8 @@ h1, h2, h3, h4, h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #fff !important;
+  background-color:#becad6 !important;
+  /* background: #fff ; */
 }
 
 @media screen and (max-width: 768px) {
@@ -147,20 +148,23 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   letter-spacing: .1em;
+  
 }
 
 .site-navbar-light.scrolled .nav-link {
+  
   padding-top: 0.7rem !important;
   padding-bottom: 0.7rem !important;
   color: #000 !important;
 }
 
 .site-navbar-light.scrolled .nav-link.active {
-  color: #FDA403 !important;
+  color: #ffff !important;
 }
 
 .site-navbar-light.scrolled.awake {
   margin-top: 0px;
+  background-color:#becad6;
   -webkit-transition: .3s all ease-out;
   -o-transition: .3s all ease-out;
   transition: .3s all ease-out;
