@@ -22,6 +22,36 @@ a:hover {
   color: #FDA403;
 }
 
+#order-button {
+  position: fixed;
+  z-index: 100001;
+  bottom: 30px;
+  left: 30px;
+  width: 150px;
+  -webkit-transform: translateZ(0);
+  /* border-radius: 50%; */
+  /* height: 80px;
+  width: 80px; */
+}
+
+
+#order-text {
+  display:none;
+
+}
+
+#order-link {
+  margin-left: 20px;
+}
+#order-link:hover {
+  opacity: 0.5;
+ }
+
+ #order-button:hover > a > #order-text {
+  display:block;
+}
+
+
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
