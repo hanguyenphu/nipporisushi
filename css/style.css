@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
-  background: #fff;
+  background: #0F0F0F;
   font-size: 16px;
   line-height: 1.6;
   color: #b8b8b8;
@@ -25,9 +25,9 @@ a:hover {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.45;
-  color: #000;
+  color: whitesmoke;
   font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .text-primary {
@@ -49,7 +49,10 @@ h1, h2, h3, h4, h5,
     position: relative;
   }
 }
-
+#btn-info{
+	background-color: #17a2b8 !important;
+  border-color: #17a2b8  !important;
+}
 .site-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 13px;
   text-transform: uppercase;
@@ -159,7 +162,7 @@ h1, h2, h3, h4, h5,
 }
 
 .site-navbar-light.scrolled .nav-link.active {
-  color: #ffff !important;
+  color: navajowhite !important;
 }
 
 .site-navbar-light.scrolled.awake {
@@ -316,11 +319,11 @@ h1, h2, h3, h4, h5,
 }
 
 .text-black {
-  color: #000 !important;
+  color: navajowhite !important;
 }
 
 .bg-light {
-  background: #darken fafafa, 4% !important;
+  background-color: #282828 !important;
 }
 
 .site-custom-gutters {
@@ -484,9 +487,10 @@ textarea.form-control {
 }
 
 .site-tab-nav li a.active {
-  background: none !important;
-  color: black !important;
-  border: 2px solid #000;
+  background: black !important;
+  color: navajowhite !important;
+  border: 2px solid navajowhite;
+  font-size: 17px;
 }
 
 .site-animate {
@@ -540,7 +544,7 @@ textarea.form-control {
 }
 
 .site-bg-dark {
-  background: #222;
+  background: #0F0F0F;
 }
 
 .site-footer {
